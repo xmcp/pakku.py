@@ -29,6 +29,7 @@ taolus={
     '2333...': re.compile(r'^23{3,}$'),
     '6666...': re.compile(r'^6{4,}$'),
     'FFF...': re.compile(r'^[fF]+$'),
+    'hhh...': re.compile(r'^[hH]+$'),
 }
 
 def request_callback(self):
