@@ -1,2 +1,1 @@
-tornado
-requests
+pytrade
