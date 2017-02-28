@@ -1,3 +1,5 @@
+# 如果你使用Chrome浏览器，你可能更需要本程序的js版本，请移步 [pakku.js](https://github.com/xmcp/pakku.js)
+
 ![logo](https://cloud.githubusercontent.com/assets/6646473/17503651/20b41376-5e24-11e6-8829-6b8a0ccd47a9.png)
 # Pakku
 自动合并B站视频中相同的弹幕，让您免受节奏大师刷屏之苦
@@ -28,6 +30,6 @@
 
 当我第一次要拿HTTP代理实现这个功能的时候，其实我是拒绝的，因为我知道这样的设计实在是太反人类了，用户一定会骂我。
 
-但我尝试用Chrome扩展实现，发现根本没有办法，因为Chrome扩展根本没法修改HTTP响应，重定向的话又会遇到一堆跨域的问题。
+<del>但我尝试用Chrome扩展实现，发现根本没有办法，因为Chrome扩展根本没法修改HTTP响应，重定向的话又会遇到一堆跨域的问题。</del>
 
-所以就这样了 #=_=
+**UPDATE: 在B站开始用HTML5播放器之后，我终于实现了用Chrome扩展实现pakku的夙愿~ 请移步 [pakku.js](https://github.com/xmcp/pakku.js)**
